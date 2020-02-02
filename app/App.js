@@ -1,9 +1,12 @@
 import React from 'react';
+import HomePage from './components/HomePage/HomePage';
 
 class App extends React.Component {
     render() {
         return(
-            <div>Hello Cruise Box</div>
+            <div>
+                <HomePage />
+            </div>
         )
     }
 }
