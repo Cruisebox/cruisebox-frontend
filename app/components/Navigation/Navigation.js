@@ -6,8 +6,7 @@ const Navigation = () => {
         <nav className='container nav-bar'>
             <div className='is-flex space-between'>
                 <div className='is-z-index-1'>
-                    {/* <h1 className='p2 logo'>cruise<span>Box</span></h1> */}
-                    <img className='p2 logo logo-image' src="../../../img/cruisebox.png" alt="" srcset=""/>
+                    <img className='p2 logo logo-image' src="../../../img/cruisebox.png" alt="" />
                 </div>
                 <div className='is-flex nav-links is-z-index-1 is-white'>
                     <p className='p2 pointer'>Create Events</p>

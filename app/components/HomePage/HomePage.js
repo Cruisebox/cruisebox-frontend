@@ -4,7 +4,7 @@ import './HomePage.css';
 
 const HomePage = () => {
     return(
-        <div className='is-relative'>
+        <div className='view-port'>
             <Navigation />
             <div className='home-image-container'>
                 <img src={"../../img/homepage.jpg"} alt="home-image" className='homepage-image'/>
