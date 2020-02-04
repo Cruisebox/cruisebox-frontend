@@ -1,0 +1,19 @@
+.card-border-radius {
+    border-radius: 1.2rem !important;
+    transition: all 1s;
+    /* border-color: rgba(0, 0, 0, 0.02) !important; */
+}
+
+.img-border-top {
+    border-top-left-radius: 1.2rem !important;
+    border-top-right-radius: 1.2rem !important;
+}
+
+.col.pb-2 {
+    padding-bottom: 2rem !important;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px !important;
+    transform: scale(1.0);
+}
