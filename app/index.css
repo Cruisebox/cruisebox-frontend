@@ -91,3 +91,7 @@ body {
 .pb-2 {
     padding-bottom: 2rem !important;
 }
+
+.fw-700 {
+    font-weight: 700;
+}

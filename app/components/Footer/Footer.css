@@ -1,0 +1,12 @@
+.footer {
+    background-color: #00A69C;
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer-font-size {
+    font-size: 1.2rem;
+}

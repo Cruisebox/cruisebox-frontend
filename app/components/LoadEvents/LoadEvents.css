@@ -1,5 +1,6 @@
 .btn {
-    background-color: #00ACEC;
+    /* background-color: #00ACEC; */
+    background-color: #00A69C;
     color: #ffffff;
     border-width: 0;
     font-size: 1.4rem;
@@ -8,17 +9,21 @@
 }
 
 button.btn {
-    background-color: #00ACEC;
+    /* background-color: #00ACEC; */
+    background-color: #00A69C;
     color: #ffffff;
     border-width: 0;
     font-size: 1.4rem;
     border-radius: 0.5rem;
     padding: 1rem 2rem;
     width: 40%;
+    border: 0.1rem solid transparent;
 }
 
 button.btn:hover {
     background-color: #ffffff;
-    color: #00ACEC;
-    border: 0.1rem solid #00ACEC;
+    /* color: #00ACEC; */
+    color: #00A69C;
+    /* border: 0.1rem solid #00ACEC; */
+    border: 0.1rem solid #00A69C;
 }
