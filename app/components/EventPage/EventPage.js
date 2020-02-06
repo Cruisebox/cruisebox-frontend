@@ -1,4 +1,5 @@
 import React from 'react';
+import LoadEvents from '../LoadEvents/LoadEvents';
 import { Container, Row, Col, Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 import './EventPage.css';
 
@@ -108,7 +109,8 @@ const EventPage = () => {
                         </CardBody>
                     </Card>
                 </Col>
-            </Row>
+            </Row>    
+            <LoadEvents />
         </Container>
     )
 }
