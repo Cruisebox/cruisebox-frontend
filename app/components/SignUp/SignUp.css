@@ -1,0 +1,38 @@
+.style-link {
+    text-decoration-line: none;
+    color: #ffffff;
+}
+
+.style-link:hover {
+    text-decoration-line: none;
+    columns: #00A69C;
+}
+
+.form-container {
+    width: 70rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px !important;
+    border-radius: 1.2rem;
+}
+
+.form-section {
+    height: 100vh;
+}
+
+.signup-logo {
+    width: 10rem;
+    height: auto;
+    padding-bottom: 6rem;
+}
+
+.form-container.form-space {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+input {
+    font-size: 1.3rem !important;
+    padding-top: 2.225rem !important;
+    padding-bottom: 2.225rem !important;
+    border-radius: .5rem !important;
+}
+

@@ -3,6 +3,8 @@ const HtmpWebpackPlugin = require('html-webpack-plugin');
 const webpack = require('webpack');
 
 module.exports = {
+    target: "web",
+    devtool: "cheap-module-source-map",
     entry: './app/index.js',
     module: {
         rules: [
@@ -46,7 +48,13 @@ module.exports = {
         new webpack.HotModuleReplacementPlugin()
     ],
     devServer: {
-        hot: true
+        hot: true,
+        historyApiFallback: true,
+        stats: "minimal",
+        overlay: true,
+        disableHostCheck: true,
+        headers: { "Access-Control-Allow-Origin": "*" },
+        https: false
     },
     watchOptions: {
         poll: true,
