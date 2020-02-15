@@ -1,5 +1,6 @@
 import React from 'react';
-import LoadEvents from '../LoadEvents/LoadEvents';
+import LoadEvents from '../loadEvents/LoadEvents';
+import { Link } from 'react-router-dom';
 import { Container, Row, Col, Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 import './EventPage.css';
 
@@ -12,9 +13,13 @@ const EventPage = () => {
             <Row>
                 <Col className='pb-2 pointer'>
                     <Card className='card-border-radius'>
-                        <CardImg className='img-border-top' top width="100%" src="../../../img/explore-events.jpg" alt="Card image cap" />
+                    <Link to='/eventdetails'>
+                        <CardImg className='img-border-top' top width="100%" src="../../../img/explore-events.jpg" alt="Card image cap" />                    
+                    </Link>
                         <CardBody>
-                            <CardTitle>Card Title</CardTitle>
+                            <Link to='/eventdetails' className='event-title-link'>
+                                <CardTitle className='event-title'>Card Title</CardTitle>
+                            </Link>
                             <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
                             <CardText>
                                 <small className="text-muted">Last updated 3 mins ago</small>
@@ -24,9 +29,13 @@ const EventPage = () => {
                 </Col>
                 <Col className='pb-2 pointer'>
                     <Card className='card-border-radius'>
-                        <CardImg className='img-border-top' top width="100%" src="../../../img/explore-events.jpg" alt="Card image cap" />
+                        <Link to='/eventdetails'>
+                            <CardImg className='img-border-top' top width="100%" src="../../../img/explore-events.jpg" alt="Card image cap" />                    
+                        </Link>
                         <CardBody>
-                            <CardTitle>Card Title</CardTitle>
+                            <Link to='/eventdetails' className='event-title-link'>
+                                <CardTitle className='event-title'>Card Title</CardTitle>
+                            </Link>
                             <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
                             <CardText>
                                 <small className="text-muted">Last updated 3 mins ago</small>
@@ -36,9 +45,13 @@ const EventPage = () => {
                 </Col>
                 <Col className='pb-2 pointer'>
                     <Card className='card-border-radius'>
-                        <CardImg className='img-border-top' top width="100%" src="../../../img/explore-events.jpg" alt="Card image cap" />
+                        <Link to='/eventdetails'>
+                            <CardImg className='img-border-top' top width="100%" src="../../../img/explore-events.jpg" alt="Card image cap" />                    
+                        </Link>
                         <CardBody>
-                            <CardTitle>Card Title</CardTitle>
+                            <Link to='/eventdetails' className='event-title-link'>
+                                <CardTitle className='event-title'>Card Title</CardTitle>
+                            </Link>
                             <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
                             <CardText>
                                 <small className="text-muted">Last updated 3 mins ago</small>
@@ -48,9 +61,13 @@ const EventPage = () => {
                 </Col>
                 <Col className='pb-2 pointer'>
                     <Card className='card-border-radius'>
-                        <CardImg className='img-border-top' top width="100%" src="../../../img/explore-events.jpg" alt="Card image cap" />
+                        <Link to='/eventdetails'>
+                            <CardImg className='img-border-top' top width="100%" src="../../../img/explore-events.jpg" alt="Card image cap" />                    
+                        </Link>
                         <CardBody>
-                            <CardTitle>Card Title</CardTitle>
+                            <Link to='/eventdetails' className='event-title-link'>
+                                <CardTitle className='event-title'>Card Title</CardTitle>
+                            </Link>
                             <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
                             <CardText>
                                 <small className="text-muted">Last updated 3 mins ago</small>
@@ -63,9 +80,13 @@ const EventPage = () => {
             <Row>
                 <Col className='pb-2 pointer'>
                     <Card className='card-border-radius'>
-                        <CardImg className='img-border-top' top width="100%" src="../../../img/explore-events.jpg" alt="Card image cap" />
+                        <Link to='/eventdetails'>
+                            <CardImg className='img-border-top' top width="100%" src="../../../img/explore-events.jpg" alt="Card image cap" />                    
+                        </Link>
                         <CardBody>
-                            <CardTitle>Card Title</CardTitle>
+                            <Link to='/eventdetails' className='event-title-link'>
+                                <CardTitle className='event-title'>Card Title</CardTitle>
+                            </Link>
                             <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
                             <CardText>
                                 <small className="text-muted">Last updated 3 mins ago</small>
@@ -75,9 +96,13 @@ const EventPage = () => {
                 </Col>
                 <Col className='pb-2 pointer'>
                     <Card className='card-border-radius'>
-                        <CardImg className='img-border-top' top width="100%" src="../../../img/explore-events.jpg" alt="Card image cap" />
+                        <Link to='/eventdetails'>
+                            <CardImg className='img-border-top' top width="100%" src="../../../img/explore-events.jpg" alt="Card image cap" />                    
+                        </Link>
                         <CardBody>
-                            <CardTitle>Card Title</CardTitle>
+                            <Link to='/eventdetails' className='event-title-link'>
+                                <CardTitle className='event-title'>Card Title</CardTitle>
+                            </Link>
                             <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
                             <CardText>
                                 <small className="text-muted">Last updated 3 mins ago</small>
@@ -87,9 +112,13 @@ const EventPage = () => {
                 </Col>
                 <Col className='pb-2 pointer'>
                     <Card className='card-border-radius'>
-                        <CardImg className='img-border-top' top width="100%" src="../../../img/explore-events.jpg" alt="Card image cap" />
+                        <Link to='/eventdetails'>
+                            <CardImg className='img-border-top' top width="100%" src="../../../img/explore-events.jpg" alt="Card image cap" />                    
+                        </Link>
                         <CardBody>
-                            <CardTitle>Card Title</CardTitle>
+                            <Link to='/eventdetails' className='event-title-link'>
+                                <CardTitle className='event-title'>Card Title</CardTitle>
+                            </Link>
                             <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
                             <CardText>
                                 <small className="text-muted">Last updated 3 mins ago</small>
@@ -99,9 +128,13 @@ const EventPage = () => {
                 </Col>
                 <Col className='pb-2 pointer'>
                     <Card className='card-border-radius'>
-                        <CardImg className='img-border-top' top width="100%" src="../../../img/explore-events.jpg" alt="Card image cap" />
+                        <Link to='/eventdetails'>
+                            <CardImg className='img-border-top' top width="100%" src="../../../img/explore-events.jpg" alt="Card image cap" />                    
+                        </Link>
                         <CardBody>
-                            <CardTitle>Card Title</CardTitle>
+                            <Link to='/eventdetails' className='event-title-link'>
+                                <CardTitle className='event-title'>Card Title</CardTitle>
+                            </Link>
                             <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
                             <CardText>
                                 <small className="text-muted">Last updated 3 mins ago</small>

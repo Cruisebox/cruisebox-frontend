@@ -1,8 +1,8 @@
 import React from 'react';
-import HomePage from './components/HomePage/HomePage';
-import ExplorePage from './components/ExplorePage/ExplorePage';
-import EventPage from './components/EventPage/EventPage';
-import Footer from './components/Footer/Footer';
+import HomePage from './components/homePage/HomePage';
+import ExplorePage from './components/explorePage/ExplorePage';
+import EventPage from './components/eventPage/EventPage';
+import Footer from './components/footer/Footer';
 
 class App extends React.Component {
     render() {
